@@ -1,0 +1,31 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    } 
+    a {
+
+    text-decoration: none;
+    }
+
+
+.body{
+    background-image: url("/Assets/background/fSKJVl.webp");
+}
+.box{
+    align-items: center;
+    width:623px;
+    height: 304px;
+    background-color: #d9d9d9;
+}
+.box h3{
+    display: inline;
+    margin-top: 24px;
+    color: #04097b;
+}
+
+.box h3.log-u{
+    margin-right: 50%;
+} 
