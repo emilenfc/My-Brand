@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div class="container-main">
+        <div>
+            <header id="hero-header" class="hero-header" role="banner">
+                <img src="/Assets/home page/log emile.png" alt="logo" class="header-logo" />
+                <nav class="hero-nav" id="hero-nav" role="navigation">
+                    <ul>
+                        <li class="nav-link">
+                            <a href="/index.html" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#aboutme" class="nav-link">
+                                About me
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Blog/index.html" class="nav-link">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/index.html#port" class="nav-link">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#footerer" class="nav-link">
+                                Contact
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/login/index.html" class="nav-link">
+                                Sign in
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        
+            <div class="container">
+                <div class="donthave-account">
+                    <p>Already have account</p>
+                    <a href="/login/index.html"><button class="signup">Login</button></a> 
+                </div>
+                <div class="login-form">
+                    <div class="choose">
+                        <p>SignUp as USER</p>
+                        <p>SignUp as ADMIN</p>
+                    </div>
+                    <div class="placeholder">
+                        <div class="signup-form">
+                            <span class="input-plc">
+                                <p>First Name:</p>
+                                <span class="valid">
+                                    <input type="text" placeholder="Munezero" id="first-name">
+                                    <p class="errorMsg" id="first-name-error"></p> 
+                                </span>
+                                
+                            </span>
+
+                            <span class="input-plc">
+                                <p>Second Name:</p>
+                                <span class="valid">
+                                 <input type="text" placeholder="Eric" id="second-name">
+                                <p class="errorMsg" id="second-name-error"></p>    
+                                </span>
+                                
+                            </span>
+                            <span class="input-plc">
+                                <p>Phone number:</p>
+                                <span class="valid">
+                                  <input type="number" placeholder="+250 700000000" id="phone-number">
+                                <p class="errorMsg" id="phone-number-error"></p>  
+                                </span>
+                                
+                            </span>
+                            <span class="input-plc">
+                                <p>Email address:</p>
+                                <span class="valid">
+                                  <input type="email" placeholder="emiljs@gmail.com" id="signUp-email-address">  
+                                  <p class="errorMsg" id="signUp-email-address-error"></p> 
+                                </span>
+                                
+                            </span>
+                            <span class="input-plc">
+                                <p>Enter password:</p>
+                                <span class="valid">
+                                   <input type="password" placeholder="#nbnGG23" id="signUP-password">
+                                   <p class="errorMsg" id="signUP-password-error"></p> 
+                                </span>
+                            </span>
+
+                            <span class="input-plc">
+                                <p>Confirm password:</p>
+                                <span class="valid">
+                                   <input type="password" placeholder="#nbnGG23" id="confirm-password">
+                                   <p class="errorMsg" id="confirm-password-error"></p>  
+                                </span>
+                                
+                            </span>
+                        </div>
+                        <span class="valid-login">
+                             <button class="login" id="signUp">SignUp</button> 
+                             <p class="errorMsg" id="signUp-error"></p>        
+                        </span>
+                        
+                    </div>
+
+                </div>
+            </div>
+        
+        <footer class="footer">
+            <button class="getInTouch-btn">
+                <img src="/Assets/GET IN TOUCH.png">
+            </button>
+
+            <div class="address-contact">
+                <span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>kigali,Rwanda</p>
+                </span>
+                <span>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+250 783 544 364 <br> +250 736 854 354</p>
+                </span>
+                <span>
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>iyaemile4@gmail.com</p>
+                </span>
+
+            </div>
+            <div class="connecting">
+                <div class="connect-item">
+                    <h2>Let's Connect</h2>
+
+                    <span>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                    </span>
+
+                    <span>
+                        <a href="#"><i class="fa-brands fa-github"></i>Github</a>
+                    </span>
+
+                    <span>
+                        <a href="#"><i class="fa-brands fa-facebook"> </i>Facebook</a>
+                    </span>
+
+                    <span>
+                        <a href="#"><i class="fa-brands fa-twitter"> </i>Twitter</a>
+                    </span>
+
+                    <span>
+                        <a href="#"><i class="fa-brands fa-instagram"> </i>Instagram</a>
+                    </span>
+                </div>
+
+                <div class="connect-item">
+                    <h2>Send Me a Message</h2>
+                    <form class="connect-form ">
+                        <div class="form-input">
+                            <span>
+                                <Label for="name">Name:</Label>
+                                <input type="text" placeholder="Your full name" name="name">
+                            </span>
+                            <span>
+                                <label for="email">Email:</label>
+                                <input type="email" placeholder="Enter your email" name="email">
+                            </span>
+
+                        </div>
+                        <textarea placeholder="Your message here" class="form-textarea"></textarea>
+                        <button class="form-btn">SEND A MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+            <div class="backtop-btn">
+                <a href="#"><img src="/Assets/home page/icon footer.png"></a>
+            </div>
+
+            <div class="copyright-footer">
+                <p>&copy;2022 Emile, Alright reserved</p>
+            </div>
+
+        </footer>
+    </div>
+
+
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
